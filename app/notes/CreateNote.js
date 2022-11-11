@@ -10,6 +10,7 @@ export default function CreateNote() {
   const router = useRouter();
 
   const create = async () => {
+    // Still getting error on backend
     const req = {
       title,
       content,
